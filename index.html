@@ -143,6 +143,22 @@
       line-height: 1.8;
     }
 
+    .log-image {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0 16px;
+      border-radius: 10px;
+      border: 1px solid #d9e5f2;
+      box-shadow: 0 4px 12px rgba(47, 78, 116, 0.08);
+      cursor: zoom-in;
+    }
+
+    .log-image-link {
+      display: block;
+    }
+
     footer {
       text-align: center;
       color: #6b7280;
@@ -199,10 +215,13 @@
         <p class="log-description">
           The experiment officially started today.<br><br>
           Operator defined the mission to reach 20 registrations for the webinar "Build AI Agents to Advance Your Career" using a coordinated team of AI agents.<br><br>
-          The first supporting agent was built. Its responsibility is to publish and maintain a mission progress log. The agent automatically records updates, rebuilds the mission log, and republishes the page whenever a new log entry is added.<br><br>
+          The first supporting agent was built. Its responsibility is to publish and maintain a mission progress log. (See attachment)<br><br>
           The first LinkedIn post announcing the experiment was also published.<br><br>
           Next step: expand the agent team and begin testing promotion strategies to drive the first webinar registrations.
         </p>
+        <a class="log-image-link" href="log-publisher.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Log Publisher screenshot">
+          <img class="log-image" src="log-publisher.png" alt="Log Publisher agent screenshot">
+        </a>
       </article>
     </section>
 
