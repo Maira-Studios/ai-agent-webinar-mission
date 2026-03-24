@@ -145,3 +145,51 @@ This file is the persistent source for:
   - The mission has changed from building the path to getting the right people onto it.
 - Next critical step:
   - Improve page share previews with metadata and a proper image, then drive the next traffic cycle through posts and warm outreach.
+
+## 2026-03-23
+
+- Status: active
+- Public-safe: yes
+- Major decisions:
+  - Re-ran `WPIP Strategizer` directly with a more neutral packet after concern that earlier framing may have influenced the result.
+  - Accepted the Strategizer result as a meaningful validation because the second run still recommended the same core shift: away from low-traction broadcast posting and toward targeted direct outreach.
+- Blockers:
+  - `WPIP Coordinator` is still not the clean control surface for this loop, so direct specialist invocation is still required for trustworthy testing.
+  - `WPIP Outreacher` needs to be fed an actual named contact list to capitalize on the strategy decision.
+- What changed:
+  - Confirmed `WPIP Strategizer` can ingest live-registration context, weak LinkedIn traction, WhatsApp sharing signal, and prior page-conversion data and still return a coherent next-step recommendation.
+  - Confirmed the system recommendation was not “post more on LinkedIn” and not “redesign the page.”
+  - Logged the exact direct Strategizer invoke call and output for webinar demo use.
+- Operator observations:
+  - This is one of the clearest proof points so far that the system can make a non-obvious but sensible operating decision from live conditions.
+  - The impressive part is not that the agent said “do outreach.” It is that it rejected the more tempting but weaker moves: more broad posting and more page iteration.
+- Candidate public lines:
+  - The Strategizer was given a live page, a weak post, a small private-channel signal, and prior conversion data. It still landed on the same answer twice: stop broadcasting, start targeted outreach.
+  - One of the most useful moments in the experiment so far was watching the strategy agent refuse the obvious vanity move.
+  - The system did not ask for a prettier page. It asked for better distribution.
+- Next critical step:
+  - Run `WPIP Outreacher` with the Strategizer result and a real named target list.
+
+## 2026-03-24
+
+- Status: active
+- Public-safe: yes
+- Major decisions:
+  - Moved from update-style posting to the first clean audience-facing webinar promotion post.
+  - Preserved strict truth by separating what `WPIP CopyWriter` generated from what Operator edited before publication.
+- Blockers:
+  - `WPIP Coordinator` is still not clean enough to trust for full orchestration, so the published asset still came from direct specialist invocation plus operator editing.
+- What changed:
+  - Published the first direct webinar promotion post on LinkedIn.
+  - Used `WPIP CopyWriter` output as the base draft, then edited the final version to simplify the language, remove the speaker line, and add a short Operator / Agent.ai signature.
+  - Updated the live campaign signal to 40 page views, 7 registrations, and a 17.5 percent conversion rate.
+- Operator observations:
+  - This is the first public post in the mission that cleanly sells the webinar itself instead of mainly narrating the experiment.
+  - The strongest credibility line at this stage is not hype about AI agents. It is the combination of a live event, a real registration page, and visible conversion signal.
+  - Strict truth matters here: the published copy should be described as agent-originated and operator-edited, not falsely framed as untouched agent output.
+- Candidate public lines:
+  - The mission has now published its first clean webinar promotion post using real agent output as the base draft.
+  - The post was written by CopyWriter first, then tightened by Operator before publication.
+  - Current signal: 40 page views, 7 registrations, 17.5 percent conversion.
+- Next critical step:
+  - Watch the direct-promo post signal, then run the next outreach cycle with the same practical, audience-facing angle.
